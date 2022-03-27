@@ -1,0 +1,603 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-family: 'Epilogue', sans-serif;
+    font-size: 18px;
+}
+
+body{
+   display: flex;
+   justify-content: center;
+   color: #172339;
+}
+
+
+
+
+/* 
+  ##Device = Desktops
+  
+*/
+
+@media (min-width: 1281px) {
+   .top-section-mobile{
+      display: none;
+  }
+ 
+header{
+    position: absolute;
+    display: flex;
+    width: 61.60rem;
+    height: 3.11rem;
+    align-items: center;
+    margin: 2.78rem 9.23rem;
+}
+
+.mobile-tablet-logo{
+    display: none;
+}
+
+.logo-img{
+    flex: 1;
+}
+
+.logo-img img{
+    width: 4.356rem;
+    height: 1.378rem;;
+}
+
+
+.nav-button button{
+    height: 3.5rem;
+    width: 13.69rem;
+    border-radius: 0.33rem;
+    background-color: transparent;
+    /* color: #172339; */
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+
+/* Top section css */
+
+.top-section-desktop-tablet{
+    background: url("../assets/image-hero-portrait.webp");
+    position: relative;
+    top: 9.61rem;
+    width: 61.67rem;
+    height:33.33rem ;
+    background-repeat: no-repeat;
+    background-position: 26rem;
+}
+
+
+.top-section-data-left img{
+position: relative;
+left: 17rem;
+margin-bottom: 1rem;
+}
+
+.top-section-data{
+    display: flex;
+    
+}
+
+.top-section-data-left{
+    margin-top: 3rem;
+   flex: 1;    
+}
+
+
+.top-section-data-left h1{
+    width: 35.78rem;
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 4rem;
+    letter-spacing: -0.056;
+    margin-bottom: 2.22rem;
+   
+}
+
+.top-section-data-left h1 span{
+    font-weight: bold;
+}
+
+.top-section-data-left p{
+    width: 19.44rem;
+    height: 5.33rem;
+    font-weight: 400;
+    line-height: 1.78rem;
+    letter-spacing: 0.0056rem;
+    color: #49566D;
+}
+
+.top-section-data-left button{
+ height: 3.389rem;
+    width: 14.22rem;
+    border-radius: 0.33rem;
+    background-color: #172339;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-top: 2.22rem;
+}
+
+
+.top-section-data-right{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    justify-content: space-between;
+    
+}
+
+
+.ratings p{
+    color: #49566D;
+    line-height: 1.44rem;
+    font-weight: 400;
+    font-size: 0.889rem;
+}
+
+.ratings h1{
+    line-height: 3.11rem;
+    font-weight: 700;
+    font-size: 2.67rem;
+}
+
+
+/* end of Top section css */
+
+  
+}
+
+
+/* 
+  Device = Laptops, Desktops
+ 
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+ .top-section-mobile{
+      display: none;
+  }
+header{
+    position: absolute;
+    display: flex;
+    width: 61.60rem;
+    height: 3.11rem;
+    align-items: center;
+    margin: 2.78rem 9.23rem;
+}
+
+.mobile-tablet-logo{
+    display: none;
+}
+
+.logo-img{
+    flex: 1;
+}
+
+.logo-img img{
+    width: 4.356rem;
+    height: 1.378rem;;
+}
+
+
+.nav-button button{
+    height: 3.5rem;
+    width: 13.69rem;
+    border-radius: 0.33rem;
+    background-color: transparent;
+    /* color: #172339; */
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+
+/* Top section css */
+
+.top-section-desktop-tablet{
+    background: url("../assets/image-hero-portrait.webp");
+    position: relative;
+    top: 9.61rem;
+    width: 61.67rem;
+    height:33.33rem ;
+    background-repeat: no-repeat;
+    background-position: 26rem;
+}
+
+
+.top-section-data-left img{
+position: relative;
+left: 17rem;
+margin-bottom: 1rem;
+}
+
+.top-section-data{
+    display: flex;
+    
+}
+
+.top-section-data-left{
+    margin-top: 3rem;
+   flex: 1;    
+}
+
+
+.top-section-data-left h1{
+    width: 35.78rem;
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 4rem;
+    letter-spacing: -0.056;
+    margin-bottom: 2.22rem;
+   
+}
+
+.top-section-data-left h1 span{
+    font-weight: bold;
+}
+
+.top-section-data-left p{
+    width: 19.44rem;
+    height: 5.33rem;
+    font-weight: 400;
+    line-height: 1.78rem;
+    letter-spacing: 0.0056rem;
+    color: #49566D;
+}
+
+.top-section-data-left button{
+ height: 3.389rem;
+    width: 14.22rem;
+    border-radius: 0.33rem;
+    background-color: #172339;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-top: 2.22rem;
+}
+
+
+.top-section-data-right{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    justify-content: space-between;
+    
+}
+
+
+.ratings p{
+    color: #49566D;
+    line-height: 1.44rem;
+    font-weight: 400;
+    font-size: 0.889rem;
+}
+
+.ratings h1{
+    line-height: 3.11rem;
+    font-weight: 700;
+    font-size: 2.67rem;
+}
+
+
+/* end of Top section css */
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+  Device = Tablets, 
+768
+*/
+
+@media (min-width: 481px) and (max-width: 1024px){
+  .top-section-mobile{
+      display: none;
+  }
+.logo-img{
+    display: none;
+}
+
+.mobile-tablet-logo{
+    display: flex;
+    flex: 1;
+    /* color: #172339; */
+    font-weight: bold;
+    font-size: 1.78rem;
+    /* line-height: 1.78rem; */
+}
+
+header{
+    position: absolute;
+    display: flex;
+    width: 38.278rem;
+    height: 2.67rem;
+    align-items: center;
+    margin: 2.22rem;
+}
+
+
+.nav-button button{
+    height: 2.67rem;
+    width: 12.167rem;
+    border-radius: 0.187rem;
+    background-color: transparent;
+    /* color: #172339; */
+    
+    font-size:0.78rem;
+    font-weight: bold;
+}
+
+
+
+/* Top section css */
+.top-section-desktop-tablet{
+    background: url("../assets/image-hero-portrait.png");
+    position: absolute;
+    top: 9.78rem;
+    left: 2.167rem;
+    width: 38.278rem;
+    height:26.778rem ;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    
+}
+
+
+.top-section-data{
+    display: block;
+   
+}
+
+
+.top-section-data-left{
+    margin-top: 3rem;
+     width: 38.278rem;
+    height:26.778rem ;
+}
+
+.top-section-data-left h1{
+    
+    width: 29.83rem;
+    height: 7.16rem;
+    font-size: 3.11rem;
+    font-weight: 400;
+    line-height: 3.556rem;
+    letter-spacing: -0.043209889;
+    margin-bottom: 2.22rem;
+    /* margin-top: 10rem; */
+   
+}
+
+.top-section-data-left h1 span{
+    font-weight: bold;
+}
+
+.top-section-data-left img{
+position: relative;
+width: 12.84rem;
+/* height: 1.61rem; */
+left: 12.56rem;
+top: 12.1489;
+
+}
+
+.top-section-data-left p{
+    width: 19.44rem;
+    height: 4.67rem;
+    font-weight: 400;
+    line-height: 1.56rem;
+    letter-spacing: 0.0049rem;
+    color: #49566D;
+    font-size: 0.889;
+}
+
+.top-section-data-left button{
+ height: 3.389rem;
+    width: 14.22rem;
+    border-radius: 0.33rem;
+    background-color: #172339;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-top: 2.22rem;
+}
+
+.top-section-data-right{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.ratings p{
+    color: #49566D;
+    line-height: 1.44rem;
+    font-weight: 400;
+    font-size: 0.889rem;
+}
+
+.ratings h1{
+    line-height: 3.11rem;
+    font-weight: 700;
+    font-size: 2.67rem;
+}
+
+/* end of top-section css */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+  Device =  Mobiles 
+  
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+
+.logo-img{
+    display: none;
+}
+header{
+    position: absolute;
+    display: flex;
+   
+    width: 19.06rem;
+    height: 2.67rem;
+    align-items: center;
+    margin: 1.33rem 0.89rem;
+   
+
+}
+
+.mobile-tablet-logo{
+    display: flex;
+    flex: 1;
+    /* color: #172339; */
+    font-weight: bold;
+    font-size: 1.78rem;
+    /* line-height: 1.78rem; */
+}
+
+
+.nav-button button{
+    height: 2.66rem;
+    width: 10.11rem;
+    border-radius: 0.187rem;
+    background-color: transparent;
+    /* color: #172339; */
+    font-size:0.78rem;
+    font-weight: bold;
+}
+
+.top-section-desktop-tablet{
+    display: none;
+}
+
+
+.top-section-mobile{
+    display: flex;
+    position: relative;
+    top: 7.1rem;
+   
+    width: 19.06rem;
+}
+
+/* .top-section-data-mobile{
+    margin-top: 10rem;
+} */
+
+.top-mobile img{
+    position: relative;
+    top: 0.1rem;
+    width: 8.415rem;
+    height: 1.056rem;
+    left: 8.70rem;
+
+}
+
+.top-section-data-mobile h1{
+    font-weight: 400;
+    font-size: 2.1rem;
+    line-height: 2.44rem;
+   margin-top: 1.5rem;
+   margin-bottom: 1.7rem;
+    
+}
+
+.top-section-data-mobile h1 span{
+    font-weight: bold;
+}
+
+.top-section-data-mobile .top-mobile p{
+    /* width: 19.44rem; */
+    /* height: 4.67rem; */
+    font-weight: 400;
+    line-height: 1.56rem;
+    letter-spacing: 0.0049rem;
+    color: #49566D;
+    font-size: 0.889;
+}
+
+.top-section-data-mobile .top-mobile button{
+    height: 3.389rem;
+    width: 14.22rem;
+    border-radius: 0.33rem;
+    background-color: #172339;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-top: 2.22rem;
+}
+
+.mobile-image{
+
+ margin-top: 1.5rem;
+    width: 19.05rem;
+    height: 13.33;
+    
+}
+
+.mobile-image img{
+    width: 100%;
+    height: auto;
+}
+
+.ratings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ratings p{
+    color: #49566D;
+    line-height: 1.44rem;
+    font-weight: 400;
+    font-size: 0.889rem;
+}
+
+.ratings h1{
+    line-height: 3.11rem;
+    font-weight: 700;
+    font-size: 2.67rem;
+}
+
+/* end of top section mobile css */
+}
+
