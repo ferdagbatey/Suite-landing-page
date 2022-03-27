@@ -12,8 +12,10 @@ html{
 
 body{
    display: flex;
-   justify-content: center;
+   
+   justify-content: space-evenly;
    color: #172339;
+   
 }
 
 
@@ -243,6 +245,7 @@ line-height: 3.1rem;
     display: none;
 }
 
+.image-jeremy-mobile{display: none;}
 /* end of bottom css */
 }
 
@@ -467,6 +470,8 @@ line-height: 3.1rem;
     display: none;
 }
 
+.image-jeremy-mobile{display: none;}
+
 /* end of bottom css */
   
 }
@@ -688,7 +693,7 @@ line-height: 2.667rem;
 .right-text p{
     color: #F3EDE7;
     font-weight: 400;
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 1.778rem ;
     letter-spacing: 0.005rem;
      padding:1rem 1.6rem;
@@ -724,11 +729,9 @@ line-height: 2.667rem;
      margin-bottom: 3.556rem;
      margin-left: 3.22rem;
      margin-right: 3.22rem;
-     
-   
-   
-
 }
+.image-jeremy-mobile{display: none;}
+/* end of bottom section */
 
 
 }
@@ -882,5 +885,103 @@ header{
 }
 
 /* end of top section mobile css */
+
+/* bottom section */
+
+.image-jeremy-tablet,.image-jeremy{
+    display: none;
+}
+
+.bottom-section-desktop-tablet{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 41.556rem;
+    width: 20.83rem;    
+    top: 80.278rem;
+    border-radius: 0.83rem;
+    background-color:  #172339;
+    align-items: center;
+    text-align: center;
+}
+.back-light{
+    position: relative;
+    right:3rem;
+    bottom: 10rem;
+}
+
+.image-jeremy-mobile{
+    width: 19.056rem;
+    height: 22.33rem;
+}
+
+.image-jeremy-mobile img{
+    position: absolute;
+    left: 3.5rem;
+    bottom: 29.278rem;
+    height: auto;
+    width: 14rem;
+}
+
+
+.curved-image{
+    position: absolute;
+     top: 14.5rem;
+   
+}
+
+
+
+ 
+
+.right-text h2{
+font-weight: 400rem;
+font-size: 2.22rem;
+line-height: 2.667rem;
+ color:  #FAF8F6;
+ padding-top: 1rem;
+}
+
+.right-text p{
+    color: #F3EDE7;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.778rem ;
+    letter-spacing: 0.005rem;
+     padding:1rem 1.6rem;
+
+   
+}
+
+.right-text h3{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.77;
+    color: #FAF8F6;
+    padding-top: 1rem;
+}
+
+.right-text h4{
+
+    font-weight: 400;
+    font-size: 0.889rem;
+    letter-spacing: 0.1389rem;
+    color: #F3EDE7;
+    line-height: 1.44rem;
+}
+
+
+.right-text{
+     position: relative;
+     bottom: 12.7rem;
+     display: flex;
+     flex-direction: column;
+     /* margin: 0.8rem; */
+     justify-content: space-evenly;
+     
+     
+    
+}  
+
 }
 
