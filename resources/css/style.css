@@ -1034,6 +1034,7 @@ header{
     top: 80.278rem;
     border-radius: 0.83rem;
     background-color:  #172339;
+   
     align-items: center;
     text-align: center;
 }
@@ -1119,7 +1120,7 @@ line-height: 2.667rem;
 
 footer{
     position:  absolute;
-    width: 100%;
+    width: 25rem;
     height: 23.33rem;
     top: 109.389rem;
     background-color: #F3EDE7;
@@ -1131,7 +1132,7 @@ footer{
     position: absolute;
     height: 8.33rem;
     width: 6.944rem;
-    left: 6.9167rem;
+    left: 9.9167rem;
     /* bottom: 4.44rem; */
     top: 13.56rem;
     display: flex;
