@@ -1129,9 +1129,9 @@ footer{
 .footer-items{
   
     position: absolute;
-    height: 150px;
-    width: 125px;
-    left: 124.5px;
+    height: 8.33rem;
+    width: 6.944rem;
+    left: 6.9167rem;
     /* bottom: 4.44rem; */
     top: 13.56rem;
     display: flex;
