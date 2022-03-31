@@ -6,6 +6,7 @@
 
 
 html{
+    
     font-family: 'Epilogue', sans-serif;
     font-size: 18px;
 }
@@ -22,6 +23,7 @@ main{
     
     z-index: 200;
 }
+
 
 
 /* 
@@ -41,6 +43,7 @@ header{
     height: 3.11rem;
     align-items: center;
     margin: 2.78rem 9.23rem;
+    left: 0;
 }
 
 .mobile-tablet-logo{
@@ -61,7 +64,7 @@ header{
     height: 3.5rem;
     width: 13.69rem;
     border-radius: 0.33rem;
-    background-color: transparent;
+    background: transparent;
     /* color: #172339; */
     font-size: 1.125rem;
     font-weight: bold;
@@ -336,6 +339,7 @@ header{
 
 
 .nav-button button{
+
     height: 3.5rem;
     width: 13.69rem;
     border-radius: 0.33rem;
@@ -1162,3 +1166,27 @@ line-height: 1.78rem;
 }
 }
 
+
+ .top-button-active {
+    transition: background 1ms;     
+}
+
+.top-button-active:active {
+   background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+
+}
+
+
+.header-button{
+    
+    
+    transition: background 1ms;  
+     transition: color 1ms;
+    
+}
+
+.header-button:active{
+     background: #172339;
+      color: #f4f6f8;
+      
+}
