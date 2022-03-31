@@ -32,7 +32,6 @@ https://ferdagbatey.github.io/Suite-landing-page/
 - HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - VS code
 
 ## Authors
